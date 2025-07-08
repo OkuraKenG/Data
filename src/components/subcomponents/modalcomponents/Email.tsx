@@ -17,7 +17,7 @@ export default function Email(props: any) {
     true
   )}\nLaunch Vehicle: ${
     launch.rocket?.configuration.full_name
-  }\nI got this info from: https://okaykenji.github.io/data`;
+  }\nI got this info from: https://okurakeng.github.io/data`;
 
   // console.log(launch);
   return (

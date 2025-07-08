@@ -9,7 +9,7 @@ export default function CustomImage(props: any) {
       alt="Img missing "
       className={className}
       src={
-        "https://raw.githubusercontent.com/OkayKenji/data/main/public/favicon.png"
+        "https://raw.githubusercontent.com/okurakeng/data/main/public/favicon.png"
       }
     />
   );

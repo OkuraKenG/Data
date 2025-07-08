@@ -235,7 +235,7 @@ export default function Launch(props: any) {
                 . API last contacted{" "}
                 {date ? date.toString() : "Error getting date"}. Created in
                 Ionic React, see{" "}
-                <a href="https://github.com/OkayKenji/Data/">code here</a>.{" "}
+                <a href="https://github.com/okurakeng/Data/">code here</a>.{" "}
                 <button
                   onClick={() => {
                     location.reload();
