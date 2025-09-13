@@ -8,5 +8,5 @@ ionic build
 Go into /dist directory and move any "/assets" to "./assets"
 
 ```
-npn run deploy
+npm run deploy
 ```
