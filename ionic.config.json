@@ -1,7 +1,0 @@
-{
-  "name": "Rockets Rahhhh",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
-}
