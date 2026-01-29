@@ -2,7 +2,7 @@
 
 That said:
 ```
-ionic build
+npx ionic build
 ```
 
 Go into /dist directory and move any "/assets" to "./assets"
