@@ -252,9 +252,11 @@ export default function Launch(props: any) {
 
                     </input>
                     <button onClick={() => {
-                      console.log(document.getElementById("offset")?.value)
+                      const offsetInput = document.getElementById("offset") as HTMLInputElement | null;
+                      const offsetValue = offsetInput?.value ?? "";
+                      console.log(offsetValue)
 
-                      let offset = Number.isNaN(Number.parseInt(document.getElementById("offset")?.value)) ? 0 : Number.parseInt(document.getElementById("offset")?.value)
+                      let offset = Number.isNaN(Number.parseInt(offsetValue)) ? 0 : Number.parseInt(offsetValue)
                       localforage
                         .setItem("offset", offset);
 
